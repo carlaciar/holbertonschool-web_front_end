@@ -42,20 +42,20 @@ body {
     line-height: var(--line-height-base);
 }
 
-a[href^="http"] {
+a:link {
     color: #161616;
     text-decoration: none;
 }
 
-a[href^="http"]:visited {
+a:visited {
     font-style: italic;
 }
 
-a[href^="http"]:hover {
+a:hover {
     text-decoration: underline;
 }
 
-a[href^="http"]:active {
+a:active {
     background-color: var(--color-light-grey);
 }
 
