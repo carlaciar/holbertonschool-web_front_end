@@ -25,7 +25,7 @@ summary{display:list-item}
 template{display:none}[hidden]{display:none}
 /*# sourceMappingURL=normalize.min.css.map */
 
-* {
+*, *::before, *::after {
     box-sizing: border-box;
 }
 
